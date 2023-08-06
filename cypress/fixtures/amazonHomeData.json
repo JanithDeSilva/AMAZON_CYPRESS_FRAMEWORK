@@ -1,0 +1,19 @@
+{
+    "Amazon": {
+        "MainTitle": "Amazon cart order test",
+        "AmazonData": {
+            "Name": "Visit Amazon and search for Automation books",
+            "NameSecond": "Verify Item name, Quantity and, Pirce",
+            "Automation": "Automation"
+        },
+        "PLP": {
+            "BookNameVar": "bookTitle"
+        },
+        "PDP": {
+            "BookPriceVar": "bookPrice"
+        },
+        "Cart": {
+            "SubTotal": "$0.00"
+        }
+    }
+}
