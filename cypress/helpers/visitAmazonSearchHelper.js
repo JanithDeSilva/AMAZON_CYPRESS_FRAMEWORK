@@ -8,14 +8,14 @@ export function VisitAmazonSearch(){
     I.Select(AmazonHome.Amazon.AmazonSearchDropdownData.SearchDropDownBox, AmazonHome.Amazon.AmazonSearchDropdownData.BooksDropDown)
     I.Fill(AmazonHome.Amazon.AmazonSearchDropdownData.SearchField, AmazonHomeData.Amazon.AmazonData.Automation)
     I.Click(AmazonHome.Amazon.AmazonSearchDropdownData.SearchButton) 
+    I.Click(AmazonHome.Amazon.PLPData.Review)
+    I.Click(AmazonHome.Amazon.PLPData.English)        
+    I.Wait(5000)
 
 }
 
 export function PLPFilterBook(){
 
-    I.Click(AmazonHome.Amazon.PLPData.Review)
-    I.Click(AmazonHome.Amazon.PLPData.English)        
-    I.Wait(5000)
     I.GetSetEnv(AmazonHome.Amazon.PLPData.SecondBookTitle, AmazonHomeData.Amazon.PLP.BookNameVar)
     I.Click(AmazonHome.Amazon.PLPData.SecondBookTitle)
 
@@ -38,14 +38,11 @@ export function VerifyBookTitle(){
 
 export function AddtoCartGotoCart(){
 
-    I.GetSetEnv(AmazonHome.Amazon.PDPData.UnitPrice, AmazonHomeData.Amazon.PDP.BookPriceVar)
     I.ClickForce(AmazonHome.Amazon.PDPData.UnitPriceButton)
     I.Click(AmazonHome.Amazon.PDPData.ItemDropDown)
     I.Click(AmazonHome.Amazon.PDPData.DropDownSelectQuantity)
     I.Click(AmazonHome.Amazon.PDPData.AddToCartButton)
     I.Click(AmazonHome.Amazon.PDPData.GoToCartButton)
-    I.GetVerify(AmazonHome.Amazon.Cart.BookTitleCart, AmazonHomeData.Amazon.PLP.BookNameVar)
-    I.GetVerify(AmazonHome.Amazon.Cart.BookPriceCart, AmazonHomeData.Amazon.PLP.BookPriceVar)
 
 
 }

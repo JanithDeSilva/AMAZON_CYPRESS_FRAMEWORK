@@ -13,6 +13,7 @@
             "BookPriceVar": "bookPrice"
         },
         "Cart": {
+            "Quantity": "2",
             "SubTotal": "$0.00"
         }
     }

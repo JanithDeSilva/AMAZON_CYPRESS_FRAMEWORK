@@ -12,8 +12,8 @@
             "SecondBookTitle": ".s-main-slot.s-result-list.s-search-results.sg-row >div[data-cel-widget='search_result_2']>div>div>div>div>div>div:nth-child(2)>div>div>div:nth-child(1)>h2>a>.a-size-medium"
         },
         "PDPData": {
-            "UnitPrice": "#tmmSwatches>ul.a-unordered-list>li:nth-child(1)>.a-list-item>.a-button>.a-button-inner>.a-button-text>.a-color-base>.a-size-base",
-            "UnitPriceButton": "#tmmSwatches>ul.a-unordered-list>li:nth-child(1)>.a-list-item>.a-button",
+            "UnitPrice": "#tmmSwatches>ul.a-unordered-list>li:nth-child(2)>.a-list-item>.a-button>.a-button-inner>.a-button-text>.a-color-base>.a-size-base",
+            "UnitPriceButton": "#tmmSwatches>ul.a-unordered-list>li:nth-child(2)>.a-list-item>.a-button",
             "ItemDropDown": "#a-autoid-0-announce",
             "DropDownSelectQuantity": "#quantity_1",
             "AddToCartButton": "#add-to-cart-button",
@@ -21,8 +21,9 @@
             "ProductTitle": "#title>#productTitle"
         },
         "Cart": {
-            "BookTitleCart": ".a-truncate-cut",
-            "BookPriceCart": ".sc-item-price-block-badge>.sc-badge-price>.sc-badge-price-to-pay>.a-spacing-mini>.a-size-medium",
+            "BookTitleCart": ".sc-list-item-content>.a-row>.sc-item-content-group:nth-child(2)>ul>li:nth-child(1)>.a-list-item>.a-link-normal>.a-size-base-plus>.a-truncate>.a-truncate-full",
+            "QuantityCart": ".a-dropdown-prompt",
+            "BookPriceCart": "#sc-subtotal-amount-buybox>span.a-size-medium.a-color-base.sc-price.sc-white-space-nowrap",
             "DeleteCart": "input[value='Delete']",
             "SubTotal": "#sc-subtotal-amount-activecart>.a-size-medium"
         }

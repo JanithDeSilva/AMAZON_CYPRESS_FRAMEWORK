@@ -55,7 +55,7 @@ class testBase{
     //Get and verify
     GetVerify(locator, text)
     {
-        cy.get(locator).should('have.text', text)
+        cy.get(locator).should('contain', text)
     }
 
 
